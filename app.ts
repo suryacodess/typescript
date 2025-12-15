@@ -83,3 +83,9 @@ function ab(obj: a) {
   console.log(obj.mobile);
 }
 ab({ name: "Sura", mobile: "9100682587" });
+
+// Type Aliases
+type snb = string | number | boolean;
+let x: snb = d;
+let m: snb = 22;
+let n: snb = true;

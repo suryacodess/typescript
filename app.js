@@ -61,4 +61,7 @@ function ab(obj) {
     console.log(obj.mobile);
 }
 ab({ name: "Sura", mobile: "9100682587" });
+let x = d;
+let m = 22;
+let n = true;
 //# sourceMappingURL=app.js.map
