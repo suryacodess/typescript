@@ -56,4 +56,9 @@ getUserWithAdmin({
     id: 0,
     admin: true,
 });
+function ab(obj) {
+    console.log(obj.name);
+    console.log(obj.mobile);
+}
+ab({ name: "Sura", mobile: "9100682587" });
 //# sourceMappingURL=app.js.map

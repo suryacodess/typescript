@@ -63,10 +63,23 @@ function getUserWithAdmin(obj: admin): void {
   console.log("User second id :", obj.secondName);
 }
 getUser({ firstName: "Surya", secondName: "Prakash", id: 0 });
-console.log("")
+console.log("");
 getUserWithAdmin({
   firstName: "Surya",
   secondName: "Prakash",
   id: 0,
   admin: true,
 });
+
+// Interface merger
+interface a {
+  name: string;
+}
+interface a {
+  mobile: string;
+}
+function ab(obj: a) {
+  console.log(obj.name);
+  console.log(obj.mobile);
+}
+ab({ name: "Sura", mobile: "9100682587" });
