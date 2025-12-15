@@ -33,4 +33,8 @@ let dex = [1, 2, 3, 4, 5];
 // Annotation type is where you declare the type of the variable
 let s = "Surya Prakash";
 let strs = "Surya";
+let obj = {
+    firstName: "Surya Prakash",
+    number: 9100682587,
+};
 //# sourceMappingURL=app.js.map

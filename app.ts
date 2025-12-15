@@ -35,3 +35,7 @@ let dex = [1, 2, 3, 4, 5];
 // Annotation type is where you declare the type of the variable
 let s: string = "Surya Prakash";
 let strs: string | number | boolean = "Surya";
+let obj: { firstName: string; number: number } = {
+  firstName: "Surya Prakash",
+  number: 9100682587,
+};
