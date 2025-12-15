@@ -15,4 +15,8 @@ var errorsMessage;
     errorsMessage["failed"] = "402 Failed";
     errorsMessage["serverError"] = "500 Internal Server";
 })(errorsMessage || (errorsMessage = {}));
+// any
+let c;
+c = 12;
+c = "sdsd";
 //# sourceMappingURL=app.js.map

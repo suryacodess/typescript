@@ -13,3 +13,9 @@ enum errorsMessage {
   failed = "402 Failed",
   serverError = "500 Internal Server",
 }
+
+// any
+let c: any;
+
+c = 12;
+c = "sdsd";
