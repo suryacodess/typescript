@@ -24,3 +24,14 @@ c = [12, 2121, 2121, 212];
 function sum(): void {
   console.log("sum");
 }
+sum();
+
+// Inference type and Annotation type -
+// Inference type is where we dont declare the type of the variable
+let d = 20;
+let de = "SURYA PRAKASH";
+let dex = [1, 2, 3, 4, 5];
+
+// Annotation type is where you declare the type of the variable
+let s: string = "Surya Prakash";
+let strs: string | number | boolean = "Surya";
