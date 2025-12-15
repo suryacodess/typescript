@@ -19,4 +19,9 @@ var errorsMessage;
 let c;
 c = 12;
 c = "sdsd";
+c = [12, 2121, 2121, 212];
+// void - void is used for functions which returns nothing
+function sum() {
+    console.log("sum");
+}
 //# sourceMappingURL=app.js.map

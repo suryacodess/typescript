@@ -16,6 +16,11 @@ enum errorsMessage {
 
 // any
 let c: any;
-
 c = 12;
 c = "sdsd";
+c = [12, 2121, 2121, 212];
+
+// void - void is used for functions which returns nothing
+function sum(): void {
+  console.log("sum");
+}
