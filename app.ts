@@ -39,3 +39,34 @@ let obj: { firstName: string; number: number } = {
   firstName: "Surya Prakash",
   number: 9100682587,
 };
+
+// Interfaces and types Aliases
+// In interfaces we can define the object structure, what type of the properties can be decalared its like a blueprint
+// of a building
+interface user {
+  firstName: string;
+  secondName: string;
+  id: number;
+}
+interface admin extends user {
+  admin: boolean;
+}
+function getUser(user: user): void {
+  console.log("User id :", user.id);
+  console.log("First name :", user.firstName);
+  console.log("Second name :", user.secondName);
+}
+function getUserWithAdmin(obj: admin): void {
+  console.log("User admin :", obj.admin);
+  console.log("User id :", obj.id);
+  console.log("User first name :", obj.firstName);
+  console.log("User second id :", obj.secondName);
+}
+getUser({ firstName: "Surya", secondName: "Prakash", id: 0 });
+console.log("")
+getUserWithAdmin({
+  firstName: "Surya",
+  secondName: "Prakash",
+  id: 0,
+  admin: true,
+});

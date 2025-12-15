@@ -37,4 +37,23 @@ let obj = {
     firstName: "Surya Prakash",
     number: 9100682587,
 };
+function getUser(user) {
+    console.log("User id :", user.id);
+    console.log("First name :", user.firstName);
+    console.log("Second name :", user.secondName);
+}
+function getUserWithAdmin(obj) {
+    console.log("User admin :", obj.admin);
+    console.log("User id :", obj.id);
+    console.log("User first name :", obj.firstName);
+    console.log("User second id :", obj.secondName);
+}
+getUser({ firstName: "Surya", secondName: "Prakash", id: 0 });
+console.log("");
+getUserWithAdmin({
+    firstName: "Surya",
+    secondName: "Prakash",
+    id: 0,
+    admin: true,
+});
 //# sourceMappingURL=app.js.map
