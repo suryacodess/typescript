@@ -28,4 +28,18 @@ function getAccDetails(acc) {
 let userAccDetails = getAccDetails({ id: 1, username: "heysuryaaaa" });
 console.log(userAccDetails);
 let userLogin = true;
+// typescript is built over the top of the javascript, every codes written inside the ts, will run in js wher ever runs
+// typescript knows js very well.
+// Inference - where we dont declare or put the type of the variable
+let name = "Surya prakash";
+let id = 123;
+let userCheckCookie = true;
+let userChecks = [true, false];
+let userDetails = {
+    username: name,
+    id: id,
+    userCheckCookie: userCheckCookie,
+    userChecks: userChecks,
+};
+console.log(userDetails);
 //# sourceMappingURL=script.js.map
