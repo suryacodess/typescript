@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+// types - primitives and non-primitives
 let a = "Surya Prakash";
 let b = 123;
 let c = [1, 2, 3];

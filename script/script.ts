@@ -1,3 +1,4 @@
+// types - primitives and non-primitives
 let a: string = "Surya Prakash";
 let b: number = 123;
 let c: [number, number, number] = [1, 2, 3];
