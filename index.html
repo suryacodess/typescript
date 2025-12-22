@@ -10,7 +10,21 @@
 <body>
     <h1>Learn Typescript</h1>
 
-    <script src="./src/inference.js"></script>
+    <form class="form">
+        <div class="form-group">
+            <label for="name">Enter name:</label>
+            <input type="text" required id="nameInput" name="name" />
+        </div>
+        <div class="form-group">
+            <label for="name">Enter email:</label>
+            <input type="email" required id="emailInput" name="email" />
+        </div>
+        <div class="form-group">
+            <button id="submitForm">Submit</button>
+        </div>
+    </form>
+    <script src="./src/app.js"></script>
+    <!-- <script src="./dist/app.js" type="module"></script> -->
 </body>
 
 </html>
