@@ -1,5 +1,6 @@
 // string type in ts
 // to define string data type to a variable we use :string
+// using number in between the string, makes number automatically string
 
 var a: string = "Surya Prakash";
 var a: string = "Srigada";
