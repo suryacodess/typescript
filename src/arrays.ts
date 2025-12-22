@@ -5,6 +5,8 @@ let a: [] = [];
 let names: string[] = ["surya", "prakash", "srigada"];
 // only numbers
 let nums: number[] = [1, 2, 3, 4, 5, 6];
+// only boolean
+let bool: boolean[] = [true, false];
 
 // this is tuple where an array store values in an order where types are defined
 let tuples: [string, boolean, string[], number[]] = [
