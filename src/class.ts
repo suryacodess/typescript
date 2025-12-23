@@ -2,7 +2,7 @@
 // Classes are blueprint for the objects
 class Product {
   id: string | number;
-  productName: string;
+  private productName: string;
   productPrice: string | number;
   inCart: boolean;
   constructor(
@@ -22,6 +22,10 @@ class Product {
     } else {
       return "Product is not in cart";
     }
+  }
+
+  getProductName(): string {
+    return this.productName;
   }
 }
 
@@ -43,5 +47,5 @@ const product1 = new Product(
   productDetails.productPrice,
   productDetails.inCart
 );
-console.log(product1);
+console.log("product name:", product1.getProductName());
 console.log(product1.productInCart());
