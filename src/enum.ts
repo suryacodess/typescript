@@ -20,3 +20,6 @@ enum msgs {
 }
 
 console.log(status.success, userRoles.admin, msgs.loginSuccess);
+const userRole: userRoles = userRoles.admin;
+const userMsg: msgs = msgs.loginSuccess;
+const userStatus: status = status.success;
