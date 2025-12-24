@@ -8,9 +8,14 @@ class Parent {
     Parent.id = id;
     this.username = username;
   }
+
+  static getDetails() {
+    return { id: Parent.id, username: this.username };
+  }
 }
 const p1 = new Parent(1, "Surya");
 // you cant access the id by object as it marked with static keyword
 console.log(p1.id); // undefined
 // you can access it by class itself
 console.log(Parent.id); // 1
+console.log("get details: ",Parent.getDetails())
